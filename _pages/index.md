@@ -28,7 +28,7 @@ permalink: /
 </ul>
 
 <ul>
-{% for file in site.static_files %}
+{% for file in site.notes %}
 	{% assign path_parts = file.path | split: '/' %}
 	{% assign folder_name = path_parts[0] %}
 	{{ folder_name }}

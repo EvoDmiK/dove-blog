@@ -28,8 +28,11 @@ permalink: /
 </ul>
 
 <ul>
-{% assign files = site.static_files %}
-{{ site.static_files }}
+{% for file in site.static_files %}
+	{% assign path_parts = file.path | split: '/' %}
+	{{ file.path }}
+	{{ path_parts }}
+{% endfor %}
 </ul>
 
 <style>

@@ -30,7 +30,7 @@ permalink: /
 <ul>
 {% assign files = site.static_files %}
 {% for folder in files %}
-	{% assign path_parts = file.path| split: '/' %}
+	{% assign path_parts = folder.path | split: '/' %}
 	 {% assign folder_name = path_parts[0] %}
 	{% if foler_name != 'assets' %}
 		<li>{{ folder_name }}</li>

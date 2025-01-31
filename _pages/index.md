@@ -31,9 +31,9 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 </ul>
 
 <ul>
-{% assign folders = site.folders %}
-{% for folder in folders %}
-	{{ folder.title }}
+{% assign folders = site.notes %}
+{% for note in notes %}
+	{{ note }}
 {% endfor %}
 </ul>
 

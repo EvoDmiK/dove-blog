@@ -8,7 +8,8 @@ permalink: /
 # Welcome! 🌱
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+  안녕하세요 6년차 딥러닝 엔지니어 김 둘기 입니다. <br>
+첫 3년은 컴퓨터 비전 분야에서 일하였고, 지금은 생성형 인공지능 분야에서 일하고 있습니다.
 </p>
 
 This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).

@@ -31,7 +31,7 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 </ul>
 
 <ul>
-{% assign recent_folder = site.folders %}
+{% assign folders = site.folders %}
 {% for folder in folders %}
 	{{ folder.title }}
 {% endfor %}

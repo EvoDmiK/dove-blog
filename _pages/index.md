@@ -31,7 +31,7 @@ permalink: /
 {% for file in site.notes %}
 	{% assign path_parts = file.path | split: '/' %}
 	{% assign folder_name = path_parts[1] %}
-	{{ folder_name }}
+	{{ path_parts }}
 {% endfor %}
 </ul>
 

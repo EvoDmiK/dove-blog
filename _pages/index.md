@@ -13,7 +13,7 @@ permalink: /
 <br>
 2025년을 맞아 공부한 내용을 열심히 정리해보고자, 블로그를 개설했습니다!
 <br><br>
-비단 
+개발자긴 하지만, 개발 뿐만 아니라 제가 관심
 </p>
 
 This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).

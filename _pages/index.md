@@ -28,7 +28,7 @@ permalink: /
 </ul>
 
 <ul>
-{% assign folders = site.notes %}
+{% assign notes = site.notes %}
 {% for note in notes %}
 	{{ note }}
 {% endfor %}

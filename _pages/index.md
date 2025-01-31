@@ -31,3 +31,43 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
     max-width: 46em;
   }
 </style>
+
+```contributionGraph
+title: 김둘기의 블로그에 잔디심기
+graphType: default
+dateRangeValue: 180
+dateRangeType: LATEST_DAYS
+startOfWeek: 0
+showCellRuleIndicators: true
+titleStyle:
+  textAlign: center
+  fontSize: 15px
+  fontWeight: normal
+dataSource:
+  type: PAGE
+  value: ""
+  dateField: {}
+fillTheScreen: true
+enableMainContainerShadow: false
+cellStyleRules:
+  - id: Ocean_a
+    color: "#8dd1e2"
+    min: 1
+    max: 2
+  - id: Ocean_b
+    color: "#63a1be"
+    min: 2
+    max: 3
+  - id: Ocean_c
+    color: "#376d93"
+    min: 3
+    max: 5
+  - id: Ocean_d
+    color: "#012f60"
+    min: 5
+    max: 9999
+cellStyle:
+  minWidth: 20px
+  minHeight: 20px
+
+```

@@ -21,8 +21,10 @@ permalink: /
 <ul>
   {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
   {% for note in recent_notes limit: 5 %}
+	{% assign path_parts = note.path | split: '/' %}
+	{% assign folder_name = path_parts[1] %}
     <li>
-      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ folder_name }}/{{ note.title }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -30,8 +32,8 @@ permalink: /
 <ul>
 {% for file in site.notes %}
 	{% assign path_parts = file.path | split: '/' %}
-	{% assign folder_name = path_parts[0] %}
-	{{ path_parts }}
+	{% assign folder_name = path_parts[1] %}
+	 <li>{{ path_parts }}</li>
 {% endfor %}
 </ul>
 

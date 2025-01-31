@@ -7,9 +7,13 @@ permalink: /
 
 # Welcome! 🌱
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
+<p style="padding: 2em 1em; background: #f5f7ff; border-radius: 4px;">
   안녕하세요 6년차 딥러닝 엔지니어 김 둘기 입니다. <br>
-첫 3년은 컴퓨터 비전 분야에서 일하였고, 지금은 생성형 인공지능 분야에서 일하고 있습니다.
+첫 3년은 컴퓨터 비전 분야에서 일하였고, 지금은 생성형 인공지능 분야에서 일하고 있습니다.<br>
+<br>
+2025년을 맞아 공부한 내용을 열심히 정리해보고자, 블로그를 개설했습니다!
+<br><br>
+비단 
 </p>
 
 This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).

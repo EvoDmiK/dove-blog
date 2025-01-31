@@ -29,9 +29,7 @@ permalink: /
 
 <ul>
 {% assign files = site.static_files %}
-{% for folder in files %}
-	{{ folder }}
-{% endfor %}
+{{ site.static_files }}
 </ul>
 
 <style>

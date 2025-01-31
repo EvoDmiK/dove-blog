@@ -33,7 +33,7 @@ permalink: /
 {% for file in site.notes %}
 	{% assign path_parts = file.path | split: '/' %}
 	{% assign folder_name = path_parts[1] %}
-	 <li>{{ folder_name }}</li>
+	 <li><a class="internal-link" href="{{ site.baseurl }}/{{ folder }}">{{ folder_name }}</a></li>
 {% endfor %}
 </ul>
 

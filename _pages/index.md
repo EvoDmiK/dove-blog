@@ -28,9 +28,11 @@ permalink: /
 </ul>
 
 <ul>
-{% assign notes = site.notes %}
-{% for note in notes %}
-	{{ note }}
+{% assign file = site.static_files %}
+	{% folder%}
+	{% assign path_parts = file.path| split: '/' %}
+	 {% assign folder_name = path_parts[0] %}
+
 {% endfor %}
 </ul>
 
